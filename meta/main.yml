@@ -1,0 +1,23 @@
+galaxy_info:
+  role_name: vector_role
+  namespace: feel
+  author: Nike Feel
+  description: This role for install Vector on EL
+  company: Netology
+
+  license: MIT
+
+  min_ansible_version: "2.10"
+
+  platforms:
+    - name: centos
+      versions:
+        - 8
+    - name: fedora
+      versions:
+        - latest
+
+  galaxy_tags:
+    - vector
+
+dependencies: []
